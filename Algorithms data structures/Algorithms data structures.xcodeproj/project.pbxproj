@@ -13,6 +13,10 @@
 		67B7EDB52C3844A600DD1FC5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 67B7EDB42C3844A600DD1FC5 /* Base */; };
 		67B7EDB72C3844A600DD1FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B7EDB62C3844A600DD1FC5 /* Assets.xcassets */; };
 		67B7EDBA2C3844A600DD1FC5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 67B7EDB92C3844A600DD1FC5 /* Base */; };
+		67B7EDC32C3845CD00DD1FC5 /* Linked list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7EDC22C3845CD00DD1FC5 /* Linked list.swift */; };
+		67B7EDC52C38487D00DD1FC5 /* DoubleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7EDC42C38487D00DD1FC5 /* DoubleLinkedList.swift */; };
+		67B7EDC92C3854F000DD1FC5 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7EDC82C3854F000DD1FC5 /* Stack.swift */; };
+		67B7EDCB2C38550500DD1FC5 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7EDCA2C38550500DD1FC5 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		67B7EDB62C3844A600DD1FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B7EDB92C3844A600DD1FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B7EDBB2C3844A600DD1FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B7EDC22C3845CD00DD1FC5 /* Linked list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Linked list.swift"; sourceTree = "<group>"; };
+		67B7EDC42C38487D00DD1FC5 /* DoubleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkedList.swift; sourceTree = "<group>"; };
+		67B7EDC82C3854F000DD1FC5 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		67B7EDCA2C38550500DD1FC5 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		67B7EDAC2C3844A600DD1FC5 /* Algorithms data structures */ = {
 			isa = PBXGroup;
 			children = (
+				67B7EDC12C3845B500DD1FC5 /* Data structures */,
 				67B7EDAD2C3844A600DD1FC5 /* AppDelegate.swift */,
 				67B7EDAF2C3844A600DD1FC5 /* SceneDelegate.swift */,
 				67B7EDB12C3844A600DD1FC5 /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				67B7EDBB2C3844A600DD1FC5 /* Info.plist */,
 			);
 			path = "Algorithms data structures";
+			sourceTree = "<group>";
+		};
+		67B7EDC12C3845B500DD1FC5 /* Data structures */ = {
+			isa = PBXGroup;
+			children = (
+				67B7EDC22C3845CD00DD1FC5 /* Linked list.swift */,
+				67B7EDC42C38487D00DD1FC5 /* DoubleLinkedList.swift */,
+				67B7EDC82C3854F000DD1FC5 /* Stack.swift */,
+				67B7EDCA2C38550500DD1FC5 /* Queue.swift */,
+			);
+			path = "Data structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B7EDC52C38487D00DD1FC5 /* DoubleLinkedList.swift in Sources */,
 				67B7EDB22C3844A600DD1FC5 /* ViewController.swift in Sources */,
+				67B7EDC92C3854F000DD1FC5 /* Stack.swift in Sources */,
+				67B7EDCB2C38550500DD1FC5 /* Queue.swift in Sources */,
 				67B7EDAE2C3844A600DD1FC5 /* AppDelegate.swift in Sources */,
 				67B7EDB02C3844A600DD1FC5 /* SceneDelegate.swift in Sources */,
+				67B7EDC32C3845CD00DD1FC5 /* Linked list.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
